@@ -31,7 +31,7 @@ class App extends Component {
         </nav>
         <Route path='/courses' exact component={Courses}/>
         <Route path='/users' component={Users}/>
-        <Route path={'/courses/:courseId/:courseTitle'} component={Course}/>
+        <Route path={'/courses/:courseId'} component={Course}/>
         
 
         <ol style={{textAlign: 'left'}}>
