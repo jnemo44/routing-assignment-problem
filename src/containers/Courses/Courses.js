@@ -35,6 +35,7 @@ class Courses extends Component {
                         } )
                     }
                 </section>
+                <Route path={this.props.match.url + '/:courseId'} component={Course}/>
             </div>
         );
     }
